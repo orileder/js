@@ -40,7 +40,7 @@ const bookUtils = {
     };
   },
   isSamePublisher: function (bookone, booktwo) {
-    if (bookone.publisher.name === booktwo.publisher.name ){
+    if (bookone.publisher.name === booktwo.publisher.name){
         if(bookone.publisher.location === booktwo.publisher.location){
             console.log("is same publisher");
             return;
@@ -57,7 +57,7 @@ bookUtils.setlanguage(book1, "italian");
 bookUtils.setTranslation(book2, "Italian", "Fabiano Rochello");
 bookUtils.setPublisher(book2, "Paulo Coelho", "Venice");
 bookUtils.setPublisher(book3, "Paulo Coelho", "Venice");
-bookUtils.setPublisher(book1, "Mony Baruch", "Venice");
+bookUtils.setPublisher(book1, "Christopher Paolini", "Luc");
 console.log(book1);
 console.log(book2);
 console.log(book3);
